@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    z-index: 1;
+     overflow: hidden; 
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 23px 25px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.navbar a:active{
+    background: white;
+    color: black;
+}
+.search{
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 23px;
+
+}
+.input{
+      background-color: #f2f2f2;
+      width: 100%; 
+      margin-right: 120px;
+      height: 30px;
+      color: black;
+      font: 23px;
+}
+
+
+/* give section */
+
+.give-section{
+    height: 60vh;
+    background-color: rgb(70, 4, 4);
+    margin-top: 93px;
+    border: 1px solid rgb(70, 4, 4);
+}
+.sub-give-section{
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    width: 33%;
+    margin-left: 80px;
+}
+.sub1-give-section{
+    margin-top: 60px;
+}
+.body{
+    /* border: 2px solid black; */
+    margin-top: 30%;
+}
+.head{
+    text-align: center;
+}
+.sub-body{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-left: 6%;
+    font-size: 20px;
+    color: rgb(95, 93, 93);
+    margin-top: 3%;
+}
+.body1{
+    /* border: 1px solid red; */
+    margin-top: 8%;
+}
+.sub-body1{
+    display: flex;
+    /* border: 2px solid rebeccapurple; */
+    margin: 2px 3px;
+}
+.sub-sub-body1{
+    /* border: 2px solid red; */
+    margin: 6px;
+    width: 50%;
+    text-align: center;
+}
+.sub-sub-body1 h1{
+    margin: 10%;
+}
+.sub-sub-body1 p{
+    margin-top: 6%;
+}
+.sub-sub-body1 button{
+    margin-top: 5%;
+    height: 7vh;
+    background-color: rgb(19, 19, 33);
+    color: white;
+    cursor: pointer;
+}
+.body2{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+}
+.sub-body2{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.sub1-body2{
+    /* border: 2px solid red; */
+    width: 75%;
+    margin-left: 15rem;
+}
+.body3{
+    margin-top: 8%;
+}
+.sub-body3{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.sub-sub-body3{
+    /* border: 2px solid black; */
+    margin: 12px;
+    width: 19vw;
+}
+.sub-sub-body3 img{
+    cursor: pointer;
+}
+.sub1-body3{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-sub1-body3{
+    margin: 12px;
+    width: 19vw;
+}
+.sub-sub1-body3 img{
+    cursor: pointer;
+}
+.btn{
+    margin-top: 2%;
+    margin-left: 4%;
+    height: 7vh;
+    width: 14vw;
+    background-color: rgb(19, 19, 33);
+    color: white;
+    cursor: pointer;
+}
+
+                                /* footer section */
+#section5{
+    margin-top: 23px;
+    height: 35vw;
+    background-color: rgb(25, 25, 90);
+    border: 2px solid rgb(25, 25, 90);
+}
+.footer{
+    display: flex;
+    margin-top: 35px;
+    font-size: 27px;
+    /* border: 2px solid yellow; */
+    margin-left: 23px;
+    height: 35vh;
+    /* justify-content: center; */
+}
+.sub-footer{
+    color:white;
+    border-right: 1px solid red;
+    width: 25%; 
+    text-shadow: 6px 6px black;
+}
+.sub-footer1{
+    /* border: 2px solid black; */
+    display: flex;
+    margin-left: 30px;
+    /* color: white; */
+    /* height: 33vh; */
+}
+.sub-footer1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sub-footer1 a:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.sub-footer2{
+    /* border: 2px solid aqua; */
+    width: 25vw;
+    margin-left: 60px;
+    text-align: center;
+}
+.sub-sub-footer2 p{
+    font-size: 20px;
+    color:white ;
+    margin-top: 80px;
+}

@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+                    /* navbar section */
+
+
+.navbar {
+    z-index: 1;
+     overflow: hidden; 
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 12px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 23px 25px;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+.active{
+    background: white;
+    color: black;
+}
+.search{
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 140px;
+
+}
+.input{
+      background-color: #f2f2f2;
+      width: 150%; 
+      /* margin-right: 150px; */
+      height: 30px;
+      color: black;
+      font: 23px;
+}
+
+
+                /* heading section */
+
+
+.heading{
+    background-color: rgb(129, 22, 22);
+    height: 50vh;
+    margin-top: 90px;
+    border: 1px solid rgb(47, 3, 3);
+}
+.sub-heading{
+    /* border: 2px solid black; */
+    margin-top: 70px;
+}
+.img-head{
+    margin-top: 70px;
+}
+
+
+                        /* first section */
+
+                       
+#section{
+    height: 80vh;
+    margin-top: 25%;
+    border: 2px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.sub-sect{
+    /* border: 2px solid black; */
+    margin-top: 80px;
+    text-align: center;
+    font-size: 23px;
+}   
+.sub-sect h1{
+    display: block;
+    /* border-bottom: 2px solid black;
+    border-width: 4%; */
+}
+.sub1-sect{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    margin-top: 45px;
+}
+.sub-sub1-sect{
+    /* border: 2px solid black; */
+    margin: 12px 23px;
+    width: 27vw;
+    text-align: center;
+}            
+.sub-sub1-sect h3{
+    margin-top: 35px;
+}  
+.sub-sub1-sect h3:hover{
+    color: rgb(231, 150, 164);
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}  
+.sub-sub1-sect p{
+    margin-top: 30px;
+} 
+.sub-sub1-sect button{
+    margin-top: 23px;
+    width: 12vw;
+    /* padding: 12px; */
+    height: 5vh;
+    background-color: #333;
+    color: white;
+    border: none;
+} 
+                    /* history section */
+
+                 
+                 
+.history-heading{
+    /* border: 2px solid rebeccapurple; */
+    text-align: center;
+    margin-top: 100px;
+}                 
+.history-pic{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 34px;
+}  
+.history-pic div{
+    /* border: 1px solid black; */
+    margin: 0px 39px;
+} 
+
+
+                                /* staff section */
+
+
+.staff-heading{
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 200;
+}
+.staff-data{
+    /* border: 2px solid black; */
+    margin-top: 55px;
+}
+.staff-data p{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(128, 35, 50);
+    cursor: pointer;
+    text-align: center;
+}
+.staff1-data{
+    display: flex;
+    justify-content: space-around;
+}
+.staff2-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+                                        /* graduation section */
+
+
+.graduation{
+    display: flex;
+    height: 80vh;
+    justify-content: space-evenly;
+    margin-top: 45px;
+    background-color: #ddd;
+}
+.graduation1{
+    /* border: 2px solid red; */
+    margin-top: 34px;
+    width: 34vw;
+    margin-right: 190px;
+}
+.graduation2{
+    /* border: 2px solid black; */
+    margin-top: 34px;
+}
+
+
+                            /* footer section */
+
+
+ #section5{
+ height: 35vw;
+ background-color: rgb(25, 25, 90);
+border: 2px solid rgb(25, 25, 90);
+ }
+.footer{
+display: flex;
+margin-top: 35px;
+font-size: 27px;
+/* border: 2px solid yellow; */
+margin-left: 23px;
+height: 35vh;
+ /* justify-content: center; */
+ }
+.sub-footer{
+color:white;
+ border-right: 1px solid red;
+width: 25%; 
+text-shadow: 6px 6px black;
+}
+.sub-footer1{
+ /* border: 2px solid black; */
+ display: flex;
+ margin-left: 30px;
+ /* color: white; */
+ /* height: 33vh; */
+ }
+ .sub-footer1 a{
+ text-decoration: none;
+ color: white;
+ font-size: 20px;
+ }
+ .sub-footer1 a:hover{
+ cursor: pointer;
+ color: yellow;
+ }
+ .sub-footer2{
+/* border: 2px solid aqua; */
+ width: 25vw;
+ margin-left: 60px;
+ text-align: center;
+ }
+ .sub-sub-footer2 p{
+ font-size: 20px;
+ color:white ;
+ margin-top: 80px;
+ }
+                            
